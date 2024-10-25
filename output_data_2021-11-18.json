@@ -1,0 +1,18 @@
+{
+    "user": "ObjectId('a')",
+    "date": "2021-11-18T00:00:00.000Z",
+    "mood_score": 8,
+    "activity": [
+        {
+            "activity": "run",
+            "steps": 6250,
+            "distance": 5,
+            "duration": 42
+        }
+    ],
+    "sleep": {
+        "sleep_score": 80,
+        "hours_of_sleep": "08:32:00",
+        "hours_in_bed": "09:00:00"
+    }
+} 
