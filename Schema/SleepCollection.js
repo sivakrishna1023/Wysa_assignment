@@ -5,8 +5,8 @@ const Sleep = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   startTime: { type: Date, required: true }, 
   sleepScore: { type: Number, min: 0, max: 100, required: true }, 
-  hoursOfSleep: { type: Number, required: true }, 
-  hoursInBed: { type: Number, required: true },
+  hoursOfSleep: { type: String, required: true }, 
+  hoursInBed: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
 });
