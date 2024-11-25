@@ -6,7 +6,7 @@ const connectDatabase = () => {
     mongoose.connect("mongodb+srv://sivakrishnachukkala:S3JATWL1wO7C8Xf5@cluster0.7kbww.mongodb.net",{
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        dbName: `boom`
+        dbName: `Wysa`
       }).then((data)=>{
         console.log(`Mongoose is connected to server:${data.connection.host}`);
       })

@@ -1,16 +1,114 @@
 [
-    {
-      "user": "a",
-      "date": "2021-11-18T00:00:00.000Z",
-      "mood_score": 8,
-      "activity": [],
-      "sleep": []
+  {
+    "name": "A",
+    "latestSleep": {
+      "sleepScore": 90,
+      "hoursOfSleep": "7:22:00"
     },
-    {
-      "user": "b",
-      "date": "2021-11-18T00:00:00.000Z",
-      "mood_score": 7,
-      "activity": [],
-      "sleep": []
-    }
-  ]
+    "userId": "6743645c260502363a88a481",
+    "latestMoodScore": 1,
+    "activities": [
+      {
+        "activityName": "Walk",
+        "steps": 5768,
+        "distance": 0,
+        "calories": 508
+      },
+      {
+        "activityName": "Run",
+        "steps": 5760,
+        "distance": 6.465203,
+        "calories": 460
+      },
+      {
+        "activityName": "Walk",
+        "steps": 4812,
+        "distance": 0,
+        "calories": 343
+      },
+      {
+        "activityName": "Walk",
+        "steps": 1640,
+        "distance": 0,
+        "calories": 141
+      },
+      {
+        "activityName": "Fitstar: Personal Trainer",
+        "steps": 117,
+        "distance": 0,
+        "calories": 45
+      },
+      {
+        "activityName": "Walk",
+        "steps": 2369,
+        "distance": 0,
+        "calories": 262
+      },
+      {
+        "activityName": "Walk",
+        "steps": 1393,
+        "distance": 0,
+        "calories": 115
+      },
+      {
+        "activityName": "Walk",
+        "steps": 1536,
+        "distance": 0,
+        "calories": 133
+      }
+    ]
+  },
+  {
+    "name": "B",
+    "latestSleep": {
+      "sleepScore": 88,
+      "hoursOfSleep": "7:39:00"
+    },
+    "userId": "6743645c260502363a88a482",
+    "latestMoodScore": 7,
+    "activities": [
+      {
+        "activityName": "Hike",
+        "steps": 6519,
+        "distance": 4.46707,
+        "calories": 730
+      },
+      {
+        "activityName": "Walk",
+        "steps": 4147,
+        "distance": 0,
+        "calories": 357
+      },
+      {
+        "activityName": "Run",
+        "steps": 5760,
+        "distance": 6.465203,
+        "calories": 460
+      },
+      {
+        "activityName": "Walk",
+        "steps": 2065,
+        "distance": 0,
+        "calories": 171
+      },
+      {
+        "activityName": "Walk",
+        "steps": 1573,
+        "distance": 0,
+        "calories": 134
+      },
+      {
+        "activityName": "Walk",
+        "steps": 1779,
+        "distance": 0,
+        "calories": 166
+      },
+      {
+        "activityName": "Run",
+        "steps": 5937,
+        "distance": 6.47782,
+        "calories": 472
+      }
+    ]
+  }
+]
