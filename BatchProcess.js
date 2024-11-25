@@ -1,12 +1,11 @@
 const { MongoClient } = require('mongodb');
+require('dotenv').config();
 const fs = require('fs');
 
-const Pipeline = require('./Pipeline');
-const { pipeline } = require('stream');
-const url = "mongodb+srv://sivakrishnachukkala:S3JATWL1wO7C8Xf5@cluster0.7kbww.mongodb.net";
-const dbName = "Wysa";
+const url=process.env.DB_URL;
+const dbName=process.env.DB_NAME;
 
-async function runBatchProcess(Pipeline, url, dbName) {
+async function runBatchProcess(url, dbName) {
   const client = new MongoClient(url);
   try {
     await client.connect();
@@ -93,6 +92,6 @@ async function runBatchProcess(Pipeline, url, dbName) {
   }
 }
 
-runBatchProcess(Pipeline, url, dbName);
+runBatchProcess(url, dbName);
 
 module.exports = runBatchProcess;

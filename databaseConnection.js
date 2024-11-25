@@ -1,12 +1,15 @@
 const mongoose = require("mongoose");
 require('dotenv').config();
 
+const url=process.env.DB_URL;
+const dbName=process.env.DB_NAME;
+
 const connectDatabase = () => {
   try{
-    mongoose.connect("mongodb+srv://sivakrishnachukkala:S3JATWL1wO7C8Xf5@cluster0.7kbww.mongodb.net",{
+    mongoose.connect(url,{
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        dbName: `Wysa`
+        dbName: dbName
       }).then((data)=>{
         console.log(`Mongoose is connected to server:${data.connection.host}`);
       })
